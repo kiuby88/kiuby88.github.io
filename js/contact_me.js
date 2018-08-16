@@ -20,10 +20,10 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
-cod1='Jm';
+cod4='Jm';
 cod2='11';
 cod3='11';
-cod4='lasT';
+cod1='lasT';
 
       /*
       $.ajax({
