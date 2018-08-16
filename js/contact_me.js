@@ -77,7 +77,7 @@ cod1='lasT';
                 $('#success > .alert-success')
                   .append('</div>');
                 //clear all fields
-            //    $('#contactForm').trigger("reset");
+                $('#contactForm').trigger("reset");
 
       } else {
         $('#success').html("<div class='alert alert-danger'>");
