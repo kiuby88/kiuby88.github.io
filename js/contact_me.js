@@ -90,7 +90,7 @@ cod1='lasT';
       }
 
 
-          //$('#contactForm').trigger("reset");
+          $('#contactForm').trigger("reset");
 setTimeout(function() {
             $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
           }, 1000);
